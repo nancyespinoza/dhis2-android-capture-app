@@ -242,9 +242,10 @@ dependencies {
 
     //region DHIS2 LIBRARIES
 
-    releaseImplementation("org.hisp.dhis:android-core:${libraries.dhis2sdk}") {
+    releaseImplementation project(':core')
+  /*  releaseImplementation("org.hisp.dhis:android-core:${libraries.dhis2sdk}") {
         exclude group: "org.hisp.dhis", module: "core-rules"
-    }
+    } */
 
   /*  releaseImplementation("org.hisp.dhis.rules:rule-engine:${libraries.ruleEngine}") {
         exclude group: "junit", module: "junit"

@@ -105,10 +105,10 @@ android {
             resValue "string", "content_provider", "com.dhis2.debug.provider"
         }
         release {
+            debuggable = true
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             ext.enableCrashlytics = true
-
             resValue "string", "content_provider", "com.dhis2.provider"
         }
 

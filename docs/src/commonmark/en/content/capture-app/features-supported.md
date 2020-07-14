@@ -129,6 +129,12 @@ The TEI Dashboard offers now the possibility to change the list of events from t
 ![](resources/images/image108.png){ width=25%}
 ![](resources/images/image109.jpg){ width=25%}
 
+### Inherit Values
+
+When creating a new TEI for a relationship, inherit any program attribute marked with the inherit check in web.
+
+This means that any existing attributes in the first TEI should have pass to the new TEI and be shown in the registration form.
+
 ## Supported features Overview
 
 The following is a comprehensive list of all features available for Programs with and without registration in DHIS2, and notes on whether or not these have been implemented in the Android Capture app.

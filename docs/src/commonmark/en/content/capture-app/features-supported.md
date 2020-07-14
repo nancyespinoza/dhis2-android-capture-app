@@ -58,6 +58,24 @@ It is possible to add notes to events in single event programs and program stage
 
 ## Program with registration in Android
 
+### TEI Card Design
+
+The new TEI Card design includes:
+
+* Last update date
+* Other enrollments in programs with displayFrontPageList
+* At most **3 main attributes**. 
+  * If there are more, show an arrow to display the full list (only attributes with displayInList option)
+* Enrollment status label if **completed** or **cancelled**
+* Overdue icon if an overdue event exist
+* The most recent overdue event date
+* Card image (one of the following options):
+  * Profile picture 
+  * Tracked Entity Attribute 
+  * First letter of the first attribute
+
+![](resources/images/image124.png)
+
 ### Complete/Deactivate Enrollment
 
 To complete or deactivate an enrollment, click on three dot menu in the right upper corner and select "Complete" or "Deactivate".

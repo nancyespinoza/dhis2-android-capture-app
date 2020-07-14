@@ -74,7 +74,40 @@ The new TEI Card design includes:
   * Tracked Entity Attribute 
   * First letter of the first attribute
 
-![](resources/images/image124.png)
+![](resources/images/image124.png){ width=25%}
+
+### Maps
+
+#### Map Layers
+
+* It should show the different Program Stages that have events with coordinates in the map layer dialog
+
+* It should be able to show only the event corresponding to the program stage selected on the map dialog
+
+* It should be able to show events and other objects (TEI, Enrollments) in the same map, if they are selected to be shown
+
+![](resources/images/image125.jpg){ width=25%}
+
+#### Map Carousel
+
+On the map view of the program, a carousel of cards is displayed, one for each enrolled TEI.
+
+* Each card on the carousel corresponds the same design as the list view.
+
+* When scrolling the carousel both sides (horizontally), the maps zooms in to the selected TEI's coordinates. If coordinates field is empty a message is shown instead. 
+
+![](resources/images/image126.jpg){ width=25%}
+
+#### Map Relationships
+
+User can see relationships on a map by tapping the map icon on the relationships tab.
+
+* An arrow is shown on the direction of the relationship.
+* For bidirectional relationships, the arrow points both sides.
+* Each relationship type displays a different color.
+* If one or both TEIs have a polygon as coordinate, the line goes from (and to) the nearest point in the polygon of both TEIs.
+
+![](resources/images/image127.jpg){ width=25%}
 
 ### Complete/Deactivate Enrollment
 

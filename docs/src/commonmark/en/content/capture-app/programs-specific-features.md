@@ -2,6 +2,24 @@
 
 ## Data Sets in Android
 
+### Overview Screen
+
+The new overview tab contains the followuing details:
+
+- Data set name
+- Last Update
+- Open/Close Status
+- Period
+- Org Unit
+- Category option combo
+
+#### Save button
+
+- When a data set is configured to complete only if validation passess. If the validation is successful, a dialog asking to mark as complete will show up. if it is not successful, then an error dialog should show and the dataset will not be marked as complete.
+- On a dataset that does not have setup "Complete allowed only if validation passes". When clicking on the save button; if the dataset has validation rules associated to it, then the app will ask the user to run the validation rules. If the dataset does not have validation rules, the dataset will be marked as complete.
+
+![](resources/images/image122.png){ width=25%}
+
 ### Increase Row Headers
 
 The length of the first column in datasets is now calculated to show the full text for the Data Elements names. Users can also adjust the width to adapt it better to their screen size.

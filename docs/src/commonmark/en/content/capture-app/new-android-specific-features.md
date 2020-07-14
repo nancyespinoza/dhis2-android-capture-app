@@ -80,6 +80,13 @@ Filters will adapt to the different programs and data sets.
 2. Program with registration: Period, Org. Unit, and Sync State.
 3. Data Sets: Period, Org. Unit, and Syn State.
 
+### New Filters: Date of Enrollment and Enrollment Status
+
+- The 'Date of Enrollment' will apply to the Enrollment date of the TEI in the program. If there is more than one enrollment date, it should sort the results by the most recent one.
+- The filter 'Enrollment status' offers three options: Active, Completed, Cancelled.
+
+![](resources/images/image123.png){ width=25%}
+
 ### Filtering added in TEI Dashboard:
 
 Filters have been added to the TEI dashboard. It is possible to filter the events of a Tracked Entity Instance enrollment per period, organisation unit, sync status, event status, and user assignment.
@@ -88,7 +95,7 @@ Filters have been added to the TEI dashboard. It is possible to filter the event
 
 ## Sync Information
 
-Allows the user to check sync information for a specific program.
+Allows the user to check sync information for a specific program. Now the synced records will not show any icon. Only unsynced, error or SMS icons will be displayed.
 
 ![](resources/images/image67.png){ width=25%}
 ![](resources/images/image68.png){ width=25%}

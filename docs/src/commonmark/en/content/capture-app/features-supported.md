@@ -58,6 +58,57 @@ It is possible to add notes to events in single event programs and program stage
 
 ## Program with registration in Android
 
+### TEI Card Design
+
+The new TEI Card design includes:
+
+* Last update date
+* Other enrollments in programs with displayFrontPageList
+* At most **3 main attributes**. 
+  * If there are more, show an arrow to display the full list (only attributes with displayInList option)
+* Enrollment status label if **completed** or **cancelled**
+* Overdue icon if an overdue event exist
+* The most recent overdue event date
+* Card image (one of the following options):
+  * Profile picture 
+  * Tracked Entity Attribute 
+  * First letter of the first attribute
+
+![](resources/images/image124.png){ width=25%}
+
+### Maps
+
+#### Map Layers
+
+* It should show the different Program Stages that have events with coordinates in the map layer dialog
+
+* It should be able to show only the event corresponding to the program stage selected on the map dialog
+
+* It should be able to show events and other objects (TEI, Enrollments) in the same map, if they are selected to be shown
+
+![](resources/images/image125.jpg){ width=25%}
+
+#### Map Carousel
+
+On the map view of the program, a carousel of cards is displayed, one for each enrolled TEI.
+
+* Each card on the carousel corresponds the same design as the list view.
+
+* When scrolling the carousel both sides (horizontally), the maps zooms in to the selected TEI's coordinates. If coordinates field is empty a message is shown instead. 
+
+![](resources/images/image126.jpg){ width=25%}
+
+#### Map Relationships
+
+User can see relationships on a map by tapping the map icon on the relationships tab.
+
+* An arrow is shown on the direction of the relationship.
+* For bidirectional relationships, the arrow points both sides.
+* Each relationship type displays a different color.
+* If one or both TEIs have a polygon as coordinate, the line goes from (and to) the nearest point in the polygon of both TEIs.
+
+![](resources/images/image127.jpg){ width=25%}
+
 ### Complete/Deactivate Enrollment
 
 To complete or deactivate an enrollment, click on three dot menu in the right upper corner and select "Complete" or "Deactivate".
